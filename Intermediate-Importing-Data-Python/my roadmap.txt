@@ -1,0 +1,15 @@
+Linear Algebra, 
+Multivariable Calculus & Optimization Technique
+
+Python & R
+
+Basics of Data Structure and Algorithm
+SQL
+MongoDB
+Linux
+Git
+Distributed Computing
+Machine Learning and Deep Learning, etc.
+
+Communication Skill
+
