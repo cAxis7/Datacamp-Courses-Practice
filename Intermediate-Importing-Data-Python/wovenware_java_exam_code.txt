@@ -1,0 +1,53 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.io.FileWriter;
+import java.io.IOException;
+
+// Made by Juan Del Valle 
+// August 1, 2022
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Start program.");
+		try{
+            //Create List to save the names and add them
+            ArrayList<String> namesList = new ArrayList<String>();
+		    namesList.add("Luis");
+		    namesList.add("maria");
+		    namesList.add("laura");
+		    namesList.add("Marta");
+		    namesList.add("Juan");
+		    
+		    //CSVWriter csvWriter = new CSVWriter(new FileWriter("names.csv"));
+		    //Create/Open file to save names in memory
+		    FileWriter writer = new FileWriter("names.txt", true);
+		    
+		    //Iterate through the list to change the names to a proper name format
+	        for(int i = 0; i < namesList.size(); i++){
+	            String name = namesList.get(i);
+	            String properName = name.substring(0,1).toUpperCase() + name.substring(1).toLowerCase();
+	            namesList.set(i, properName);  
+	        }
+	        
+	        //sort in ascending order
+	        Collections.sort(namesList);
+	        
+	        //write names in txt file along with an appropiate email
+	        for(String name : namesList){
+	            //csvWriter.writeNext(new String[]{name, name + "@javatest.com"});
+	            writer.write(name + " " + name.substring(0,1).toLowerCase() + name.substring(1) + "@javatest.com");
+	            writer.write("\r\n");
+	        }
+	        
+	        //csvWriter.close();
+	        writer.close();
+	        
+		} catch (IOException e) {
+            e.printStackTrace();
+        } finally{
+            System.out.println("End program.");
+        }
+		
+	}
+}

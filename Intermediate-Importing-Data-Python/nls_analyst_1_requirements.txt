@@ -1,0 +1,16 @@
+software engineering life cycle including Agile environment
+
+web applications and services using software development best practices, including unit testing, continuous integration, and configuration management
+
+development and support of custom applications in support of Duck Creek products and services.
+
+logical programming, data structures and design patterns
+Thourhgt understanding of technical software components
+microsoft office 365
+
+Microsoft .Net/IIS platform stack
+	ASP.NET
+	c#
+	ms SQL
+	XML
+	and/or XSLT

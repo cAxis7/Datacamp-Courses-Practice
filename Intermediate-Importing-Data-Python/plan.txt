@@ -1,0 +1,8 @@
+* wovenware exam: java, javascript
+* apply: internship -> resumé -> essay -> recommendation letter
+* keep studying leetcode, datacamp, programmingexpert. (algoritms, search, trees, etc.)
+* contests leetcode and google kickstart
+* Submit research experience poster
+	* create the poster itself
+	* create graph in bluej -> to think of a way to implement a observer pattern
+	* begin testing

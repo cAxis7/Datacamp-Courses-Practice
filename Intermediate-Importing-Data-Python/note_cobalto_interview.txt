@@ -1,0 +1,67 @@
+Why i want to apply
+	* i'm interested in Ai, Advanced Analytics maybe cloud Computing
+	* Learn from a team that know new technologies
+	* I lived near San Juan Puerto Rico
+
+	* I practice self-study on a daily basis
+	* My favorite programming language is Python
+	* I have profiecy with SQL
+	* I have some experience with Power Bi
+	* I work with csv, json and xml during school as research assistant(csv), through books (xml) and android development (xml and json)
+	* Experience with agile methodology
+
+	Experience
+		* use python and java to analyze tons of csv/excel files which belonged to neonatal pacients each correspond to a parameters :
+	HR, SBP, DBP, RR, FiO2, SatO2, HgB, pH, crea
+		* create two views: personalized and customized 
+		* MTSA multi variable time series analysis
+
+		* create an android application a grocery store app
+			* write xml app file layout
+			* write sql queries
+			* apply agile methodology
+
+	DataCamp courses
+		Data Scientist with Python
+			* Data Manipulation with pandas
+			* joining Data with pandas
+			* introduction Data visualization with matplotlib
+			* introduction/intermediate Data visualization with seaborn
+			* introduction to NumPy
+			* python Data Science ToolBox
+			* importing data in python
+			* cleaning data in python
+			* writing funcion in python
+			* exploratory data analysis
+			* analyzing police activity
+			* introduction statistics
+			* (currently) Introduction to regression with statsmodels
+		sql developer
+			* introduction to sql server
+			* relational databases in sql
+			* intermediate sql server
+			* time series sanalysis in sql
+		Data analyst in power bi
+
+	Close to complete the data analyst with python certificate
+		course left : hypothesis testing in Python
+
+Bachelor Courses:
+	probability
+	Lineal Algebra
+	Computer vision
+	Database Management
+	Algorithms
+	introduction software engineering
+	
+Most recent Project: Dr. Semmelweis and the Discovery of Handwashing (childbed fever)
+	* import pandas
+	* read csv file
+	* calculate proportion of deaths per number of births 
+	* extract clinic 1 and 2 rows
+	* using matplotlib plot proportion of deaths by year
+	* use pandas.to_datetime()
+	* calculate mean difference when before and after cleaning hands
+	* bootstrap analysis
+		* create sample of both after and before handwashing, calculate the mean between then and save then
+		* calculate confidence interval of quantile 2.5% to 97.5% 
